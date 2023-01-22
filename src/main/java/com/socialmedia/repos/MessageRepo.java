@@ -1,10 +1,9 @@
-package com.sweater.repos;
+package com.socialmedia.repos;
 
-import com.sweater.domain.Message;
+import com.socialmedia.domain.Message;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
-import java.util.Map;
 
 public interface MessageRepo extends CrudRepository<Message, Integer> {
     List<Message> findByTag(String tag);

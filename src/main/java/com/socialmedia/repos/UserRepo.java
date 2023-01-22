@@ -1,6 +1,6 @@
-package com.sweater.repos;
+package com.socialmedia.repos;
 
-import com.sweater.domain.User;
+import com.socialmedia.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepo extends JpaRepository<User, Integer> {

@@ -1,8 +1,8 @@
-package com.sweater.controller;
+package com.socialmedia.controller;
 
-import com.sweater.domain.Role;
-import com.sweater.domain.User;
-import com.sweater.repos.UserRepo;
+import com.socialmedia.domain.Role;
+import com.socialmedia.domain.User;
+import com.socialmedia.repos.UserRepo;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

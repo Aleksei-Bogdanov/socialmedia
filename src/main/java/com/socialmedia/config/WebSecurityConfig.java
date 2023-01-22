@@ -1,6 +1,6 @@
-package com.sweater.config;
+package com.socialmedia.config;
 
-import com.sweater.repos.UserRepo;
+import com.socialmedia.repos.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

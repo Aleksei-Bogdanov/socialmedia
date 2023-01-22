@@ -1,4 +1,4 @@
-package com.sweater.controller;
+package com.socialmedia.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

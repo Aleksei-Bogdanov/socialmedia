@@ -1,7 +1,7 @@
-package com.sweater.controller;
+package com.socialmedia.controller;
 
-import com.sweater.domain.Message;
-import com.sweater.repos.MessageRepo;
+import com.socialmedia.domain.Message;
+import com.socialmedia.repos.MessageRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
