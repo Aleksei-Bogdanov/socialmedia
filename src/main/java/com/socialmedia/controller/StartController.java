@@ -8,16 +8,9 @@ import java.util.Map;
 
 @Controller
 @RequestMapping("/")
-public class GreetingController {
-
-    @GetMapping("/")
-    public String greeting(
-            Map<String, Object> model
-    ){
-        return "greeting";
+public class StartController {
+    @GetMapping
+    public String start(){
+        return "start";
     }
-
-
-
-
 }
