@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 @AllArgsConstructor
-public class MainController {
+public class MessageController {
     private MessageService messageService;
 
     @GetMapping("/main")
